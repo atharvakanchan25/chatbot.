@@ -1,0 +1,6 @@
+# Ignore virtual environment
+aimodels/
+__pycache__/
+*.pyc
+.env
+
