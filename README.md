@@ -20,6 +20,12 @@ It streams responses in real time (word-by-word) for a natural **typing effect**
 
 <img width="1920" height="1200" alt="Screenshot from 2025-08-17 17-22-42" src="https://github.com/user-attachments/assets/3b04d405-990b-4492-a8e2-bb16ca734155" />
 
+<img width="1920" height="1200" alt="Screenshot from 2025-08-17 17-22-52" src="https://github.com/user-attachments/assets/dd6b74f3-7df2-4d8b-bd28-b2ac463a6eeb" />
+
+<img width="1920" height="1200" alt="Screenshot from 2025-08-17 17-23-49" src="https://github.com/user-attachments/assets/75603ffd-0fec-4509-ad05-02d0b12c27cd" />
+
+
+
 
 *(More screenshots can be added here once deployed live!)*  
 
