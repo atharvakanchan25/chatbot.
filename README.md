@@ -1,28 +1,36 @@
-# 🧠 Chatbot with Ollama + Flask + Modern UI
-A simple **AI-powered chatbot** built with [Ollama](https://ollama.ai/), Flask, and a modern UI that looks and feels like **ChatGPT**. This project streams responses in real time (word by word), giving a typing effect, just like ChatGPT.
+# 🧠 Chatbot with Ollama + LangChain + Flask + Modern UI  
 
-## 🚀 Features
-- ✅ ChatGPT-like UI (dark theme, professional look)  
-- ✅ Transparent message bubbles (like ChatGPT)  
-- ✅ Real-time streaming responses (typing effect)  
-- ✅ Backend powered by **Flask**  
-- ✅ Uses **Ollama models** (e.g., `llama3`, `mistral`)  
+A simple **AI-powered chatbot** built using [Ollama](https://ollama.ai/), [LangChain](https://www.langchain.com/), and Flask, with a sleek modern UI inspired by **ChatGPT**.  
+It streams responses in real time (word-by-word) for a natural **typing effect**, just like ChatGPT.  
+
+---
+
+## 🚀 Features  
+- ✅ **ChatGPT-like UI** (dark theme, professional design)  
+- ✅ **Transparent chat bubbles** (smooth user experience)  
+- ✅ **Real-time streaming responses** (typing effect)  
+- ✅ **Backend powered by Flask** for fast API handling  
+- ✅ **LangChain integration** for modular prompt handling & workflows  
+- ✅ **Ollama models support** (`llama3`, `mistral`, etc.)  
 - ✅ Easy to deploy on **Render / Hugging Face Spaces / Localhost**  
 
-## 📂 Project Structure
-<img width="464" height="236" alt="image" src="https://github.com/user-attachments/assets/a586563d-739b-463a-83b4-e930fdbfc07b" />
+---
+
+## 📸 Screenshots  
+
+<img width="1920" height="1200" alt="Screenshot from 2025-08-17 17-22-42" src="https://github.com/user-attachments/assets/3b04d405-990b-4492-a8e2-bb16ca734155" />
 
 
-## ⚡ Installation & Setup (Local)
-### 1️⃣ Clone the repo
+*(More screenshots can be added here once deployed live!)*  
+
+---
+
+## 📂 Project Structure  
+
 ```bash
-git clone https://github.com/atharvakanchan25/chatbot.git
-cd chatbot
-
-python3 -m venv aimodels
-source aimodels/bin/activate   # (Linux/Mac)
-aimodels\Scripts\activate      # (Windows)
-
-pip install -r requirements.txt
-
-python app.py
+chatbot/
+│── static/           # CSS, JS, frontend assets  
+│── templates/        # HTML templates (UI)  
+│── app.py            # Flask backend  
+│── requirements.txt  # Dependencies  
+│── README.md         # Project documentation  
